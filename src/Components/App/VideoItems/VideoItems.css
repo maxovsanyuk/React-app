@@ -359,9 +359,15 @@
         width: 70vh;
         height: 45vh;
     }
-    .header{
+
+    .header-btn:focus{
+        height: 45px;
+    }
+
+    .header-btn{
         height: 40px;
     }
+
     .header-logo{
         display: none;
     }

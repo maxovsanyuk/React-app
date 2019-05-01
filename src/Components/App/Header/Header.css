@@ -32,6 +32,7 @@
 .header-logo:hover{
     background: url(../../../img/logo3.png)no-repeat center;
     background-size: contain;
+    cursor: pointer;
 }
 
 .header-btn-container{

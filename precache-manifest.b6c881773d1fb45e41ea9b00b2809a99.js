@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/react-app/static/media/refresh.7cbbb66f.png"
   },
   {
-    "revision": "347ec201f20c598e7611",
-    "url": "/react-app/static/css/main.4516c391.chunk.css"
+    "revision": "1d54c75b020436c4f5ba",
+    "url": "/react-app/static/css/main.cde69e15.chunk.css"
   },
   {
     "revision": "8ce05037bfd6015f067a",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/react-app/static/media/bg1.7b158281.jpg"
   },
   {
-    "revision": "347ec201f20c598e7611",
+    "revision": "1d54c75b020436c4f5ba",
     "url": "/react-app/static/js/main.a0ab3db4.chunk.js"
   },
   {
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/react-app/static/css/2.3f5d369f.chunk.css"
   },
   {
-    "revision": "db8a963d9950d2823eea240dc99888dc",
+    "revision": "9b7794b5dd94dc1fc25f8f7d88da90a9",
     "url": "/react-app/index.html"
   }
 ];

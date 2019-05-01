@@ -1,0 +1,42 @@
+{
+  "name": "react-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://maxovsanyuk.github.io",
+  "dependencies": {
+    "autoprefixer": "^9.5.1",
+    "axios": "^0.18.0",
+    "deploy": "^1.0.3",
+    "gh-pages": "^2.0.1",
+    "i": "^0.3.6",
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-iframe": "^1.8.0",
+    "react-prefixer": "^2.0.1",
+    "react-scripts": "2.1.8",
+    "react-youtube": "^7.9.0",
+    "run": "^1.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "eslint": "5.3.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0"
+  }
+}

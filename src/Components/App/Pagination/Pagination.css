@@ -1,0 +1,123 @@
+button:focus{
+    outline: 0;
+}
+
+.pagination{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.active{
+    color: rgb(252, 250, 250)!important;
+    background: rgb(7, 7, 7)!important;
+    border: 3px solid #9c2424!important;
+}
+.dis-active{
+    color: rgb(241, 238, 238)!important;
+    background: rgb(10, 10, 10)!important;
+    border: 2px solid rgba(67, 130, 160, 0.616)!important;
+}
+
+.previous-btn{
+    height: 40px;
+    width: 80px;
+    background: rgb(2, 2, 2);
+    color: rgba(255, 255, 255, 0.945);
+    font-family: 'Josefin Sans', sans-serif;
+    border: 2px solid rgba(67, 130, 160, 0.616);
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    margin-right: 10px;
+    text-align: right;
+    font-size: 14px;
+    transition: .1s;
+}
+
+.previous-btn:hover{
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.pagination_counter_btn{
+    height: 40px;
+    width: 40px;
+    margin: 0 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    background: rgb(10, 10, 10);
+    border: 2px solid rgba(67, 130, 160, 0.616);
+    color: rgb(241, 238, 238);
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+.pagination_counter_btn:hover{
+    cursor: pointer;
+}
+
+.next-btn{
+    height: 40px;
+    width: 80px;
+    background: rgb(2, 2, 2);
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 2px solid rgba(67, 130, 160, 0.616);
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    margin-left: 10px;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 17px;
+}
+
+.next-btn:hover{
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+@media screen and (max-device-width: 480px) {
+    .previous-btn {
+        height: 40px;
+        width: 70px;
+        background: rgb(2, 2, 2);
+        color: rgba(255, 255, 255, 0.945);
+        font-family: 'Josefin Sans', sans-serif;
+        border: 2px solid rgba(67, 130, 160, 0.616);
+        border-top-left-radius: 100%;
+        border-bottom-left-radius: 100%;
+        margin-right: 5px;
+        text-align: right;
+        font-size: 12px;
+        -webkit-transition: .1s;
+        transition: .1s;
+    }
+    .next-btn {
+        height: 40px;
+        width: 70px;
+        background: rgb(2, 2, 2);
+        color: #fff;
+        font-family: 'Josefin Sans', sans-serif;
+        border: 2px solid rgba(67, 130, 160, 0.616);
+        border-top-right-radius: 100%;
+        border-bottom-right-radius: 100%;
+        margin-left: 5px;
+        font-size: 12px;
+        text-align: left;
+        padding-left: 17px;
+    }
+    .pagination_counter_btn {
+        height: 30px;
+        width: 30px;
+        margin: 0 2px;
+        font-family: 'Josefin Sans', sans-serif;
+        background: rgb(10, 10, 10);
+        border: 2px solid rgba(67, 130, 160, 0.616);
+        color: rgb(241, 238, 238);
+        border-radius: 50%;
+        font-size: 13px;
+    }
+}

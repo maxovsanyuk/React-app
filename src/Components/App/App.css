@@ -1,0 +1,15 @@
+.preloader{
+  height: calc(100% - 66px);
+  width: 100%;
+  position: absolute;
+  background: #0e1217 url(../../img/source2.gif)no-repeat center;
+  background-size: contain;
+}
+
+
+.first{
+  color: red;
+}
+.dis{
+  color: black;
+}

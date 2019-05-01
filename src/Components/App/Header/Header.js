@@ -7,7 +7,7 @@ function Header(props){
         <Fragment>
             <header className="header" id="header">
                 <section className="header-section">
-                    <a href="../../../../public/index.html" className="header-logo"> </a>
+                    <a onClick={() => {document.location.reload(true)}} className="header-logo"> </a>
                     <div className="header-btn-container">
                         <button className="top-rated-btn header-btn" onClick={props.data.getTopRated}>Top Rated</button>
                         <button className="top-liked-btn header-btn" onClick={props.data.getTopLiked}>Top Liked</button>
